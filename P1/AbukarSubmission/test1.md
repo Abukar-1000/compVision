@@ -1,5 +1,5 @@
 
-```matlab
+```matlab {.line-numbers}
 opts = detectImportOptions("points.csv");
 horizontalPlane = readmatrix("points.csv", opts);
 verticalPlane = readmatrix("points.csv", opts);
